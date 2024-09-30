@@ -22,3 +22,4 @@ def minPrice(start, end, prices, memo):
 
 n = int(input())
 prices = list(map(int, input().split()))
+print(minPrice(0, n-1, prices, {}))
